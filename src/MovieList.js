@@ -3,8 +3,6 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Container, Row, Col, Button, Card, Navbar, Form } from 'react-bootstrap';
 import Search from './Search';
-
-// Importuj pliki ze zdjęciami
 import zdjecie1 from './Zdjecia/logo.jpg';
 import zdjecie2 from './Zdjecia/film.jpg';
 

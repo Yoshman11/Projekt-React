@@ -5,7 +5,7 @@ const LoginPage = () => {
   return (
     <div>
       <h2>Strona Logowania</h2>
-      {/* Dodaj tutaj formularz logowania lub inne elementy dotyczące logowania */}
+      {/* Tutaj bedzie formularz logowania */}
     </div>
   );
 };
