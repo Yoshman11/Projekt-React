@@ -12,7 +12,9 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<MovieList />} />
+        <Route path="/movies/:id" element={<MovieDetails />} />
         <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
         <Route path="/signup" element={<RegisterPage />} />
         <Route path="/details" element={<MovieDetails />} />
         <Route path="/add" element={<AddMoviePage />} />
